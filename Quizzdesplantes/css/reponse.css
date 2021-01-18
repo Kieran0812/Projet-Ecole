@@ -1,0 +1,148 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+h1 {
+	font-family: 'Lato', sans-serif;
+}
+p {
+	font-family: 'Poppins', sans-serif;
+}
+body {
+	background-image: url(../images/image_site/flowers.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;	
+}
+.img {
+	position: relative;
+    background-position: center;
+    background-size: cover;
+}
+header {
+	min-height: 100%;
+}
+.error{
+	display: flex;
+	justify-content: center;
+	background-color: red;
+	color: white;
+}
+#tete {
+	display: flex;
+	justify-content: space-between;
+	padding: 2% 4% 0 4%;
+	justify-content: flex-end;
+}
+header>button:first-child {
+	background-color: rgba(40, 61, 112, 0.9);
+	height: 6%;
+	width: 2.5%;
+	border: none;
+	border-radius: 20%;
+	box-shadow: none;
+	outline: none;
+	cursor: pointer;
+}
+#btd {
+	background-color: rgba(40, 61, 112, 0.9);
+	border: none;
+	color: white;
+	border-radius: 4px;
+	width: 110%;
+	height: 100%;
+	text-transform: uppercase;
+	padding: 5%;
+}
+#btd:hover {
+	background-color: rgba(40, 61, 112, 0.7);
+}
+#btd>i {
+	margin-left: 5%;
+}
+h1 {
+	position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    background-color: rgba(40, 61, 112, 0.9);
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    margin: 0;
+	width: 32%;
+	margin-left: 34%;
+}
+section {
+	margin: 0 20% 0 20%;
+	padding: 5%;
+	background-color: rgba(40, 61, 112, 0.9);
+	color: white;
+}
+footer {
+	color: white;
+	background-color: rgba(40, 61, 112, 0.9);
+	margin-top: 10%;
+	padding-top: 1%;
+	padding-bottom: 0.5%;
+	text-align: center;
+}
+footer>h3 {
+	text-align: center;
+	letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+}
+footer>ul {
+	list-style-type: none;
+}
+footer>ul>li:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+div[id="imgbon"]{
+	display: flex;
+	justify-content: center;
+	margin: 2% 0 2% 0;
+}
+div[id="imgrep"]{
+	display: flex;
+	justify-content: space-around;
+	margin: 2% 0 2% 0;
+}
+div[id="imgbon"]>img{
+	box-shadow:0px 0px 0px 2px green;
+	height:480px;
+}
+div[id="imgrep"]>img{
+	box-shadow:0px 0px 0px 2px red;
+	height:480px;
+}
+.reponse {
+	margin: 2% 0 2% 0;
+}
+#retour {
+	width: 15%;
+	height: 5%;
+	background-color: white;
+	border: none;
+	border-radius: 4px;
+	box-shadow: none;
+	outline: none;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+#retour:hover {
+	background-color: #DEDFF7;
+}
+#retour>a{
+	color: black;
+}
+#retour>a:hover {
+	text-decoration: none;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meteo</title>
+    <link rel="stylesheet" href="meteo.css">
+    <script type="text/javascript" src="meteo.js"></script>
+</head>
+<body id="body">
+    <span>Veuillez entrez une ville</span>
+    <input id="town" type="text" placeholder="Entrer une ville">
+    <button onclick="manualsearch()">Recherche</button>
+    <div id="currenttown"></div>
+    <div id="currenttemp"></div>
+    <div id="currentweather"></div>
+    <div id="icone"><img src="" id="iconimg"></div>
+    <div id="prev"><span>Prévisions</span></div>
+    <div id="es">       
+        <div id="entries"></div>
+        <div id="search">Search<input type="search"></div>
+    </div>
+    <div id="buttonconteneur">
+        <button class="btn" onclick="forecast(1)" >aujourd'hui</button>
+        <button class="btn" onclick="forecast(2)" >demain</button>
+        <button class="btn" onclick="forecast(3)" >après-demain</button>
+        <button class="btn" onclick="forecast(4)" >le jour d'après</button>
+        <button class="btn" onclick="forecast(5)" >5 jour plus tard</button>
+    </div>
+    <div id="debutBOB" class="dBob"></div>
+    <div id="BOB" class="Bob"></div>
+</body>
+</html>

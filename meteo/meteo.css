@@ -1,0 +1,87 @@
+body{
+    background-image: url('image/background-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Bob{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    /* height: 200px; */
+}
+.dBob{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+div{
+    text-align: center;
+}
+div[class="dBob"]>div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 24.89%;
+    border: 1px solid black;
+    font-size: 1.2em;
+}
+
+div[class="Bob"]>div>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    width: 24.9%;
+    border: 1px solid black;
+}
+div[class="Bob"]>div>div>img{
+    width: auto;
+    height: 50%;
+
+}
+
+div[class="Bob"]>div{
+    display: flex;
+    width: 100%;
+}
+div[class="Bob"]>div:nth-of-type(odd){
+    background-color: rgb(164, 207, 221, 0.5);
+    background: ;
+}
+
+#prev{
+    margin-top: 5%;
+}
+#es{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+#entries{
+    display: flex;
+    width: 49.5%;
+}
+#search{
+    display: flex;
+    justify-content: flex-end;
+    width: 49.5%;
+}
+
+#verif{
+    display: none;
+}
+
+.btn{
+    background-color: lightblue;
+    border-radius: 5px;
+    border: lightblue 1px solid;
+}
+
+button:hover{
+    cursor: pointer;
+}

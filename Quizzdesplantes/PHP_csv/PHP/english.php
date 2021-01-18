@@ -1,0 +1,43 @@
+<?php
+	$errorlanguepassword="Passwords are not identical ";
+	$errorlanguemail="Mail address already used";
+	// Changement du language à partir d'ici
+	$_langue="Language";
+	$_francais="French";
+	$_anglais="English";
+	$_allemand="German";
+	$_italien="Italian";
+	$_espagnol="Spanish";
+	$_portugal="Portuguese";
+	$_titre="Quizz Plants";
+	$_soustitre="It's Plantastic";
+	$_trans1="Plants";
+	$_description="Description";
+	$_textdes="A quiz is a form of game or mind sport in which players attempt to answer questions correctly. It is a game to test knowledge about a certain subject. In some countries, a quiz is also a brief assessment used in education and similar fields to measure growth in knowledge, abilities, and/or skills.";
+	$_trans2="Tree";
+	$_choix="Choices";
+	$_btn="Normal Quizz";
+	$_btc="Chrono Quizz";
+	$_soon="Soon";
+	$_trans3="Flowers";
+	$_commentaires="The opinions of our latest users !";
+    $_developper="Develope by :";
+    $_connexion="Connection";
+	$_connect="Log in";
+	$_fermer="Close";
+	$_email="Email";
+	$_mdp="Password";
+	$_inscription="Registration";
+	$_nom="Last name";
+	$_prenom="First name";
+	$_mdp2="Repeat password";
+	$_inscrit="Sign up";
+	$errorpass="Error password !";
+  	$errorm="Mail address doesn't exist";
+  	$_stay="Stay Connect";
+  	$_resultat="Result";
+  	$labonnereponse="The correct answer was";
+	$votrereponce="Your answer was";
+	$tempschrono="Time : ";
+	$_return="Return";
+?>
